@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Introduction to Web Design</title>
+		<style>
+		body {
+		color:white;
+		background-image: url("images/AI Image.jpg");
+		margin:auto;
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+			
+			}
+			#navigation{
+			margin:0px;
+				height:38px;
+				width:100%;
+				background-color:#21e0b6;
+			}
+			ul{
+				margin:auto;
+				list-style:none;
+				overflow:hidden;
+				text-align:center;
+				
+			}
+			ul li{
+				display:inline-block;
+				clear:left;
+				padding:10px;
+				padding-left:30px;
+				padding-right:30px;
+			}
+			ul li:hover{
+				background-color:red;
+				color:blue;
+			}
+			#content{
+				margin-left:10px;
+				width:700px;
+				clear: left;
+			}
+			img{
+				/*display:inline;*/
+				width:40%;
+				float:left;
+				}
+				
+			#container {
+				
+				background-color:rgba(63, 191, 191,0.5);
+				
+
+				}			
+			
+		</style>
+	</head>
+	<body>
+		<div id="container">
+		<div id="navigation">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="page 2.html"><li>Machine Learning</li></a>
+				<a href="page 3.html"><li>Deep Learning</li></a>
+				<a href="page 4.html"><li>AI Robotics</li></a>
+				<a href="page 5.html"><li>Media</li></a>
+			</ul>
+		</div>  
+		
+		<h1>AI & Robotics</h1>
+		<p> Robots are defined as artificial agents acting in a real world environment, and aimed at manipulating objects by perceiving, modifying the physical properties of them, destroying it, or to have an effect thereby freeing manpower from doing repetitive functions without getting, distracted, bored or tired. Robotics is a branch of AI, which is made up of Electrical Engineering, Mechanical Engineering, and Computer Science for designing, construction, and application of robots. The robots will undergo mechanical construction, form factor, or shaped and designed to accomplish a particular task. They have electrical components which power and control the machinery, computer programs that determines why, when and how a robot does something.</P>
+		
+		<img src="images/AI-Robotics Diagram.png" alt="AI-Robotics Diagram">
+		<img src="images/AI-Robotics Diagram 3.png" alt="AI-Robotics Diagram">
+		
+		<div id="content">
+		
+		<h2>AI Programs - Robots</h2>
+	
+		They usually operate in computer-simulated and physical world enviroment, the input to an AI program is in symbols and rules. Inputs to robots is analog signal in the form of speech waveform or images, but need general purpose computers to operate on. They require special hardware with sensors and effectors, and locomotion which is the mechanism that makes a robot capable of moving around in its environment.</p>
+		
+		<h3>Types of Locomotion</h3>
+		
+		Legged
+		<br>
+		<br>
+		Wheeled
+		<br>
+		<br>
+		Combination of Legged and Wheeled Locomotion
+		<br>
+		<br>
+		Tracked slip/skid
+		<br>
+		<br>
+		Legged Locomotion
+		<br>
+		<br>
+		This type of locomotion consumes more power while demonstrating walk, jump, trot, hop, climb up or down, etc.
+		<br>
+		<br>
+		It requires more number of motors to accomplish a movement. It is suited for rough as well as smooth terrain where irregular or too smooth surface makes it consume more power for a wheeled locomotion. It is little difficult to implement because of stability issues.
+		<br>
+		<br>
+		It comes with the variety of one, two, four, and six legs. If a robot has multiple legs then leg coordination is necessary for locomotion.
+		<br>
+		<br>
+		The total number of possible gaits (a periodic sequence of lift and release events for each of the total legs) a robot can travel depends upon the number of its legs.
+		<br>
+		<br>
+		If a robot has k legs, then the number of possible events N = (2k-1)!.
+		<br>
+		<br>
+		In case of a two-legged robot (k=2), the number of possible events is N = (2k-1)! = (2*2-1)! = 3! = 6.
+		<br>
+		<br>
+		Hence there are six possible different events −
+		<br>
+		<br>
+		(Lifting the Left leg)
+		(Releasing the Left leg)
+		(Lifting the Right leg)
+		(Releasing the Right leg)
+		(Lifting both the legs together)
+		(Releasing both the legs together)
+		In case of k=6 legs, there are 39916800 possible events. Hence the complexity of robots is directly proportional to the number of legs.</p>
+		</div>
+		
+		</div>
+	</body>
+</html>
+
